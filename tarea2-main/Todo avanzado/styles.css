@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #07a6e5;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+input, select, button {
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: rgb(239, 2, 2);
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #f60b0b;
+}
+
+th {
+  background: #007bff;
+  color: white;
+}
+
+button.delete {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+}
